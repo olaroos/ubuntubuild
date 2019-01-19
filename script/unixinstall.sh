@@ -8,7 +8,7 @@ pip3 install virtualenv
 
 virtualenv ~/venv
 source ~/venv/bin/activate 
-pip3 install jupyter pandas
+pip3 install jupyter pandas matplotlib torch
 
 # install CUDA 9.0 and CUDNN 7.0 
 # https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e
