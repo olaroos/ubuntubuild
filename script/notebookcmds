@@ -1,0 +1,10 @@
+https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
+
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+this command prints multiple outputs without print() command
+
+%matplotlib inline
+%matplotlib notebook  	# rendering done server-side
+import Seaborn 		# built on top of matplotlib

@@ -1,0 +1,3 @@
+sudo woeusb --target-filesystem NTFS --device /media/lubuntu/usbdata/images/windows.iso /dev/sdb
+
+# how to create bootable usb with windows-file larger than 4Gig
